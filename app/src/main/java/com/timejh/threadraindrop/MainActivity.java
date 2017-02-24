@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         @Override
         protected void onDraw(Canvas canvas) {
             super.onDraw(canvas);
-            canvas.drawCircle(deviceWidth/2, 0, 10, rainColor);
+            canvas.drawCircle(deviceWidth / 2, 0, 10, rainColor);
         }
     }
 }
